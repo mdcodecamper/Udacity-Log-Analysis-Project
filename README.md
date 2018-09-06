@@ -1,4 +1,4 @@
-# Log-Analysis-Udacity-Project
+# Udacity-Log-Analysis-Project
 An internal reporting tool that uses information of large database of a web server and draw business conclusions from that information.
 (Project from [Full Stack Web Development Nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004))
 
@@ -62,8 +62,8 @@ where (Error::float*100)/Total::float > 1.0 order by Percent desc;
 * <h4>Make Views</h4>
   Make views by running respective queries on command line or uncomment code written in python module.
 * <h4>Run Module</h4>
-  <pre>python log.py</pre>
+  <pre>python log_analysis_report.py</pre>
   
 ### Output:
-![Screenshot.jpg](https://github.com/mdco/Log-Analysis-Udacity-Project/blob/master/Screenshot.JPG)
+![Screenshot.jpg](https://github.com/mdcodecamper/Udacity-Log-Analysis-Project/blob/master/Screenshot%202018-09-06%2014.10.20.png)
 
