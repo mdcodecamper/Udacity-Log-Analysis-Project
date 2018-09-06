@@ -12,7 +12,7 @@ def connect(dbname="news"):
     except:
         print("Error in connecting to database")
 
-'''
+
 def view_popular_article():
     try:
         db, c = connect()
@@ -55,7 +55,7 @@ def view_log_status():
         db.close()
     except:
         print("Error in creating view log_status")
-'''
+
 
 
 def popular_article():
@@ -95,11 +95,11 @@ def log_status():
 
 if __name__ == '__main__':
     # uncomment the below code to make views
-    '''
+    
     view_popular_article()
     view_popular_authors()
     view_log_status()
-    '''
+    
     popular_article()
     popular_authors()
     log_status()
