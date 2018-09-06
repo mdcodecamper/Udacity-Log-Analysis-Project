@@ -1,6 +1,6 @@
 # Log-Analysis-Udacity-Project
 An internal reporting tool that uses information of large database of a web server and draw business conclusions from that information.
-(Project from [Full Stack Web Development Nanodegree](https://in.udacity.com/course/full-stack-web-developer-nanodegree--nd004/))
+(Project from [Full Stack Web Development Nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004))
 
 ## Introduction
 This is a python module that uses information of large database of a web server and draw business conclusions from that information. The database contains newspaper articles, as well as the web server log for the site. The log has a database row for each time a reader loaded a web page. The database includes three tables:
@@ -50,7 +50,7 @@ where (Error::float*100)/Total::float > 1.0 order by Percent desc;
 ## Instructions
 * <h4>Install <a href="https://www.vagrantup.com/">Vagrant</a> and <a href="https://www.virtualbox.org/wiki/Downloads">VirtualBox.</a></h4>
 * <h4>Clone the repository to your local machine:</h4>
-  <pre>git clone https://github.com/visheshbanga/Log-Analysis-Udacity-Project</pre>
+  <pre>git clone https://github.com/mdcodecamper/Udacity-Log-Analysis-Project</pre>
 * <h4>Start the virtual machine</h4>
   From your terminal, inside the project directory, run the command `vagrant up`. This will cause Vagrant to download the Linux           operating   system and install it.
   When vagrant up is finished running, you will get your shell prompt back. At this point, you can run `vagrant ssh` to log in to your     newly installed Linux VM!
@@ -65,5 +65,5 @@ where (Error::float*100)/Total::float > 1.0 order by Percent desc;
   <pre>python log.py</pre>
   
 ### Output:
-![Screenshot.jpg](https://github.com/visheshbanga/Log-Analysis-Udacity-Project/blob/master/Screenshot.JPG)
+![Screenshot.jpg](https://github.com/mdco/Log-Analysis-Udacity-Project/blob/master/Screenshot.JPG)
 
